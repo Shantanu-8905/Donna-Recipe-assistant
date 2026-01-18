@@ -1,0 +1,19 @@
+2026-01-17 00:49:24,910 - DaunaAI - INFO - ======================================================================
+2026-01-17 00:49:24,910 - DaunaAI - INFO - Dauna AI Session Started
+2026-01-17 00:49:24,911 - DaunaAI - INFO - ======================================================================
+2026-01-17 00:49:24,914 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-01-17 00:49:24,914 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-17 00:49:34,240 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\shant\\miniconda3\\envs\\dauna\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-01-17 00:49:34,242 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\shant\miniconda3\envs\dauna\lib\site-packages\comtypes\gen'
+2026-01-17 00:49:56,618 - DaunaAI - INFO - Requesting input - Context: dietary preference - vegetarian or non-vegetarian
+2026-01-17 00:49:56,618 - DaunaAI - INFO - Valid options: ['vegetarian', 'non-vegetarian']
+2026-01-17 00:50:01,483 - faster_whisper - INFO - Processing audio with duration 00:02.902
+2026-01-17 00:50:02,216 - DaunaAI - INFO - User input: 'i would like to go with non-vegetarian.' (ASR confidence: 0.95)
+2026-01-17 00:50:02,271 - DaunaAI - INFO - Sentiment: POSITIVE (score: 0.66)
+2026-01-17 00:50:02,271 - DaunaAI - INFO - Extracting keywords from: 'i would like to go with non-vegetarian.'
+2026-01-17 00:50:02,271 - DaunaAI - INFO - Match result: 'vegetarian' (score: 100)
+2026-01-17 00:50:02,271 - DaunaAI - INFO - Match confidence: high (100)
+2026-01-17 00:50:02,271 - DaunaAI - INFO - High confidence match accepted: vegetarian
+2026-01-17 00:50:20,091 - faster_whisper - INFO - Processing audio with duration 00:01.742
+2026-01-17 00:50:20,708 - DaunaAI - INFO - Requesting input - Context: type of course - main course, snack, or dessert
+2026-01-17 00:50:20,709 - DaunaAI - INFO - Valid options: ['main course', 'snack', 'dessert']

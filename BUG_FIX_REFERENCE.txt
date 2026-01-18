@@ -1,0 +1,85 @@
+═══════════════════════════════════════════════════════════════════════════════
+🐛 NON-VEGETARIAN SELECTION BUG - FIXED
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ PROBLEM
+───────────────────────────────────────────────────────────────────────────────
+When users said "non-vegetarian", system incorrectly selected "vegetarian"
+
+User input:    "I would like to go with non-vegetarian"
+System output: Selected "vegetarian" ❌
+Result:        Showed vegetarian recipes instead of non-veg
+
+Root Cause:    Substring matching without word boundaries
+               "vegetarian" found inside "non-vegetarian"
+               Matched before checking "non-vegetarian" option
+
+✅ SOLUTION
+───────────────────────────────────────────────────────────────────────────────
+Rewrote nlp_engine.py keyword extraction with:
+
+1. Word boundary checking
+   • r'\bvegetarian\b' in 'non-vegetarian' → False ✓
+   • r'\bvegetarian\b' in 'vegetarian' → True ✓
+
+2. Sort options by length (longer first)
+   • Process 'non-vegetarian' before 'vegetarian' ✓
+
+3. Text normalization
+   • Convert hyphens to spaces for consistent matching ✓
+
+4. Word order verification
+   • Words must appear in sequence, not scattered ✓
+
+5. Negation detection
+   • If option starts with 'non', verify 'non' in text ✓
+
+🧪 TEST RESULTS
+───────────────────────────────────────────────────────────────────────────────
+✅ "I would like non-vegetarian" → Matched: non-vegetarian
+✅ "non vegetarian" → Matched: non-vegetarian  
+✅ "I prefer vegetarian" → Matched: vegetarian
+✅ "Show me main course" → Matched: main course
+✅ "I want a snack" → Matched: snack
+
+📝 FILE MODIFIED
+───────────────────────────────────────────────────────────────────────────────
+nlp_engine.py - extract_keywords() function (Lines 255-310)
+• Complete rewrite with improved matching logic
+• Added normalization and boundary checking
+• Added negation/prefix detection
+
+📊 BEFORE vs AFTER
+───────────────────────────────────────────────────────────────────────────────
+Input: "non-vegetarian"
+
+BEFORE:
+  System checks:
+    - Does 'vegetarian' appear? YES → Match "vegetarian" ❌
+    
+AFTER:
+  System checks:
+    - Sort by length: [non-vegetarian, vegetarian]
+    - Does 'non vegetarian' match as phrase? YES → Match "non-vegetarian" ✅
+
+🎯 IMPACT
+───────────────────────────────────────────────────────────────────────────────
+✅ Non-veg recipes now correctly filtered
+✅ User selections are accurately captured
+✅ Combined filters work properly
+✅ Better match confidence scores
+
+🚀 READY TO USE
+───────────────────────────────────────────────────────────────────────────────
+Status: Production Ready
+
+Run: python main_enhanced.py
+
+User can now successfully:
+  • Say "non-vegetarian" and get non-veg recipes
+  • Combine with other filters (course, region, etc.)
+  • Get accurate recommendations
+
+═══════════════════════════════════════════════════════════════════════════════
+Date: January 17, 2026 | Status: ✅ FIXED | Version: 1.0
+═══════════════════════════════════════════════════════════════════════════════

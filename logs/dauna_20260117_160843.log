@@ -1,0 +1,80 @@
+2026-01-17 16:08:43,393 - DaunaAI - INFO - ======================================================================
+2026-01-17 16:08:43,394 - DaunaAI - INFO - Dauna AI Session Started
+2026-01-17 16:08:43,394 - DaunaAI - INFO - ======================================================================
+2026-01-17 16:08:43,400 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-01-17 16:08:43,401 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-17 16:08:52,628 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\shant\\miniconda3\\envs\\dauna\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-01-17 16:08:52,632 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\shant\miniconda3\envs\dauna\lib\site-packages\comtypes\gen'
+2026-01-17 16:09:05,458 - DaunaAI - INFO - Requesting input - Context: dietary preference - vegetarian or non-vegetarian
+2026-01-17 16:09:05,459 - DaunaAI - INFO - Valid options: ['vegetarian', 'non-vegetarian']
+2026-01-17 16:09:09,114 - faster_whisper - INFO - Processing audio with duration 00:01.765
+2026-01-17 16:09:10,235 - DaunaAI - INFO - User input: 'on which it will be.' (ASR confidence: 0.95)
+2026-01-17 16:09:10,301 - DaunaAI - INFO - Sentiment: POSITIVE (score: 1.00)
+2026-01-17 16:09:10,301 - DaunaAI - INFO - Extracting keywords from: 'on which it will be.'
+2026-01-17 16:09:10,301 - DaunaAI - INFO - Match result: 'None' (score: 30.000000000000004)
+2026-01-17 16:09:10,301 - DaunaAI - WARNING - No match found (best score: 30.000000000000004)
+2026-01-17 16:09:16,944 - DaunaAI - WARNING - Retry attempt 1/4
+2026-01-17 16:09:22,856 - DaunaAI - INFO - Providing examples: ['vegetarian', 'non-vegetarian']
+2026-01-17 16:09:26,002 - faster_whisper - INFO - Processing audio with duration 00:01.718
+2026-01-17 16:09:26,941 - DaunaAI - INFO - User input: 'i'm going to do it again.' (ASR confidence: 0.95)
+2026-01-17 16:09:26,972 - DaunaAI - INFO - Sentiment: POSITIVE (score: 1.00)
+2026-01-17 16:09:26,973 - DaunaAI - INFO - Extracting keywords from: 'i'm going to do it again.'
+2026-01-17 16:09:26,973 - DaunaAI - INFO - Match result: 'None' (score: 53.333333333333336)
+2026-01-17 16:09:26,974 - DaunaAI - WARNING - No match found (best score: 53.333333333333336)
+2026-01-17 16:09:31,867 - DaunaAI - INFO - Progress detected in user input
+2026-01-17 16:09:38,140 - DaunaAI - WARNING - Retry attempt 2/4
+2026-01-17 16:09:44,059 - DaunaAI - INFO - Providing examples: ['vegetarian', 'non-vegetarian']
+2026-01-17 16:09:47,803 - faster_whisper - INFO - Processing audio with duration 00:02.252
+2026-01-17 16:09:48,756 - DaunaAI - INFO - User input: 'vegetarian' (ASR confidence: 0.75)
+2026-01-17 16:09:48,792 - DaunaAI - INFO - Sentiment: NEGATIVE (score: 0.88)
+2026-01-17 16:09:54,937 - DaunaAI - WARNING - User showing signs of frustration
+2026-01-17 16:09:54,938 - DaunaAI - INFO - Extracting keywords from: 'vegetarian'
+2026-01-17 16:09:54,939 - DaunaAI - INFO - Match result: 'vegetarian' (score: 100)
+2026-01-17 16:09:54,939 - DaunaAI - INFO - Match confidence: high (100)
+2026-01-17 16:09:54,939 - DaunaAI - INFO - High confidence match accepted: vegetarian
+2026-01-17 16:10:06,962 - faster_whisper - INFO - Processing audio with duration 00:02.276
+2026-01-17 16:10:07,958 - DaunaAI - INFO - Requesting input - Context: type of course - main course, snack, or dessert
+2026-01-17 16:10:07,959 - DaunaAI - INFO - Valid options: ['main course', 'snack', 'dessert']
+2026-01-17 16:10:21,377 - faster_whisper - INFO - Processing audio with duration 00:01.881
+2026-01-17 16:10:23,966 - DaunaAI - INFO - User input: 'the main course.' (ASR confidence: 0.85)
+2026-01-17 16:10:23,996 - DaunaAI - INFO - Sentiment: POSITIVE (score: 1.00)
+2026-01-17 16:10:23,996 - DaunaAI - INFO - Extracting keywords from: 'the main course.'
+2026-01-17 16:10:23,999 - DaunaAI - INFO - Match result: 'main course' (score: 100)
+2026-01-17 16:10:23,999 - DaunaAI - INFO - Match confidence: high (100)
+2026-01-17 16:10:23,999 - DaunaAI - INFO - High confidence match accepted: main course
+2026-01-17 16:10:30,731 - DaunaAI - INFO - Requesting input - Context: Indian state for regional cuisine
+2026-01-17 16:10:30,731 - DaunaAI - INFO - Valid options: ['west bengal', 'rajasthan', 'punjab', 'uttar pradesh', 'pan-india', 'odisha', 'maharashtra', 'uttarakhand', 'assam', 'bihar', 'andhra pradesh', 'karnataka', 'telangana', 'kerala', 'tamil nadu', 'gujarat', 'tripura', 'manipur', 'nagaland', 'nct of delhi', 'jammu  kashmir', 'chhattisgarh', 'haryana', 'madhya pradesh', 'goa']
+2026-01-17 16:10:45,858 - faster_whisper - INFO - Processing audio with duration 00:02.043
+2026-01-17 16:10:48,110 - DaunaAI - INFO - User input: 'so, i need you.' (ASR confidence: 0.90)
+2026-01-17 16:10:48,140 - DaunaAI - INFO - Sentiment: POSITIVE (score: 1.00)
+2026-01-17 16:10:48,142 - DaunaAI - INFO - Extracting keywords from: 'so, i need you.'
+2026-01-17 16:10:48,144 - DaunaAI - INFO - Match result: 'None' (score: 50.0)
+2026-01-17 16:10:48,144 - DaunaAI - WARNING - No match found (best score: 50.0)
+2026-01-17 16:10:54,410 - DaunaAI - WARNING - Retry attempt 1/4
+2026-01-17 16:11:00,773 - DaunaAI - INFO - Providing examples: ['west bengal', 'rajasthan', 'punjab']
+2026-01-17 16:11:04,750 - faster_whisper - INFO - Processing audio with duration 00:01.927
+2026-01-17 16:11:05,648 - DaunaAI - INFO - User input: 'quest bangle' (ASR confidence: 0.80)
+2026-01-17 16:11:05,676 - DaunaAI - INFO - Sentiment: POSITIVE (score: 0.99)
+2026-01-17 16:11:05,676 - DaunaAI - INFO - Extracting keywords from: 'quest bangle'
+2026-01-17 16:11:05,677 - DaunaAI - INFO - Match result: 'west bengal' (score: 76.19047619047619)
+2026-01-17 16:11:05,677 - DaunaAI - INFO - Match confidence: medium (76.19047619047619)
+2026-01-17 16:11:05,677 - DaunaAI - INFO - Medium confidence - requesting confirmation
+2026-01-17 16:11:13,570 - faster_whisper - INFO - Processing audio with duration 00:01.811
+2026-01-17 16:11:14,507 - DaunaAI - INFO - Confirmation response: 'yes.'
+2026-01-17 16:11:14,507 - DaunaAI - INFO - User confirmed: west bengal
+2026-01-17 16:11:27,374 - DaunaAI - INFO - Requesting input - Context: recipe name from the list I just mentioned
+2026-01-17 16:11:27,375 - DaunaAI - INFO - Valid options: ['Daal puri', 'Luchi', 'Mishti Chholar Dal', 'Shukto']
+2026-01-17 16:11:31,705 - faster_whisper - INFO - Processing audio with duration 00:02.508
+2026-01-17 16:11:32,758 - DaunaAI - INFO - User input: 'muchit' (ASR confidence: 0.75)
+2026-01-17 16:11:32,786 - DaunaAI - INFO - Sentiment: POSITIVE (score: 0.99)
+2026-01-17 16:11:32,786 - DaunaAI - INFO - Extracting keywords from: 'muchit'
+2026-01-17 16:11:32,788 - DaunaAI - INFO - Match result: 'Luchi' (score: 80.0)
+2026-01-17 16:11:32,788 - DaunaAI - INFO - Match confidence: high (80.0)
+2026-01-17 16:11:32,788 - DaunaAI - INFO - Medium confidence - requesting confirmation
+2026-01-17 16:11:40,059 - faster_whisper - INFO - Processing audio with duration 00:01.556
+2026-01-17 16:11:42,461 - DaunaAI - INFO - Confirmation response: 'yes.'
+2026-01-17 16:11:42,461 - DaunaAI - INFO - User confirmed: Luchi
+2026-01-17 16:12:08,505 - faster_whisper - INFO - Processing audio with duration 00:01.393
+2026-01-17 16:12:51,364 - faster_whisper - INFO - Processing audio with duration 00:05.364
+2026-01-17 16:13:09,064 - DaunaAI - INFO - Requesting input - Context: dietary preference - vegetarian or non-vegetarian
+2026-01-17 16:13:09,065 - DaunaAI - INFO - Valid options: ['vegetarian', 'non-vegetarian']

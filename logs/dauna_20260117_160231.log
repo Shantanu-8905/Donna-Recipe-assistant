@@ -1,0 +1,67 @@
+2026-01-17 16:02:31,059 - DaunaAI - INFO - ======================================================================
+2026-01-17 16:02:31,060 - DaunaAI - INFO - Dauna AI Session Started
+2026-01-17 16:02:31,060 - DaunaAI - INFO - ======================================================================
+2026-01-17 16:02:31,066 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-01-17 16:02:31,066 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-17 16:02:42,822 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\shant\\miniconda3\\envs\\dauna\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-01-17 16:02:42,822 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\shant\miniconda3\envs\dauna\lib\site-packages\comtypes\gen'
+2026-01-17 16:03:05,655 - DaunaAI - INFO - Requesting input - Context: dietary preference - vegetarian or non-vegetarian
+2026-01-17 16:03:05,655 - DaunaAI - INFO - Valid options: ['vegetarian', 'non-vegetarian']
+2026-01-17 16:03:10,449 - faster_whisper - INFO - Processing audio with duration 00:02.740
+2026-01-17 16:03:11,700 - DaunaAI - INFO - User input: 'i would like to go over it with this area' (ASR confidence: 0.95)
+2026-01-17 16:03:12,128 - DaunaAI - INFO - Sentiment: POSITIVE (score: 1.00)
+2026-01-17 16:03:12,129 - DaunaAI - INFO - Extracting keywords from: 'i would like to go over it with this area'
+2026-01-17 16:03:12,133 - DaunaAI - INFO - Match result: 'None' (score: 42.85714285714286)
+2026-01-17 16:03:12,134 - DaunaAI - WARNING - No match found (best score: 42.85714285714286)
+2026-01-17 16:03:18,391 - DaunaAI - WARNING - Retry attempt 1/4
+2026-01-17 16:03:24,315 - DaunaAI - INFO - Providing examples: ['vegetarian', 'non-vegetarian']
+2026-01-17 16:03:28,743 - faster_whisper - INFO - Processing audio with duration 00:02.995
+2026-01-17 16:03:29,806 - DaunaAI - INFO - User input: 'if you would like to go with vegetarian' (ASR confidence: 0.95)
+2026-01-17 16:03:29,842 - DaunaAI - INFO - Sentiment: POSITIVE (score: 0.96)
+2026-01-17 16:03:29,842 - DaunaAI - INFO - Extracting keywords from: 'if you would like to go with vegetarian'
+2026-01-17 16:03:29,842 - DaunaAI - INFO - Match result: 'vegetarian' (score: 100)
+2026-01-17 16:03:29,842 - DaunaAI - INFO - Match confidence: high (100)
+2026-01-17 16:03:29,842 - DaunaAI - INFO - High confidence match accepted: vegetarian
+2026-01-17 16:03:42,084 - faster_whisper - INFO - Processing audio with duration 00:02.554
+2026-01-17 16:03:55,609 - DaunaAI - INFO - Requesting input - Context: type of course - main course, snack, or dessert
+2026-01-17 16:03:55,610 - DaunaAI - INFO - Valid options: ['main course', 'snack', 'dessert']
+2026-01-17 16:04:09,109 - faster_whisper - INFO - Processing audio with duration 00:02.810
+2026-01-17 16:04:10,089 - DaunaAI - INFO - User input: 'snack.' (ASR confidence: 0.75)
+2026-01-17 16:04:10,118 - DaunaAI - INFO - Sentiment: POSITIVE (score: 1.00)
+2026-01-17 16:04:10,119 - DaunaAI - INFO - Extracting keywords from: 'snack.'
+2026-01-17 16:04:10,120 - DaunaAI - INFO - Match result: 'snack' (score: 100)
+2026-01-17 16:04:10,121 - DaunaAI - INFO - Match confidence: high (100)
+2026-01-17 16:04:10,121 - DaunaAI - INFO - High confidence match accepted: snack
+2026-01-17 16:04:16,567 - DaunaAI - INFO - Requesting input - Context: Indian state for regional cuisine
+2026-01-17 16:04:16,567 - DaunaAI - INFO - Valid options: ['west bengal', 'rajasthan', 'punjab', 'uttar pradesh', 'pan-india', 'odisha', 'maharashtra', 'uttarakhand', 'assam', 'bihar', 'andhra pradesh', 'karnataka', 'telangana', 'kerala', 'tamil nadu', 'gujarat', 'tripura', 'manipur', 'nagaland', 'nct of delhi', 'jammu  kashmir', 'chhattisgarh', 'haryana', 'madhya pradesh', 'goa']
+2026-01-17 16:04:32,158 - faster_whisper - INFO - Processing audio with duration 00:01.881
+2026-01-17 16:04:33,182 - DaunaAI - INFO - User input: 'rajasthan' (ASR confidence: 0.75)
+2026-01-17 16:04:33,226 - DaunaAI - INFO - Sentiment: POSITIVE (score: 0.99)
+2026-01-17 16:04:33,227 - DaunaAI - INFO - Extracting keywords from: 'rajasthan'
+2026-01-17 16:04:33,230 - DaunaAI - INFO - Match result: 'rajasthan' (score: 100)
+2026-01-17 16:04:33,230 - DaunaAI - INFO - Match confidence: high (100)
+2026-01-17 16:04:33,230 - DaunaAI - INFO - High confidence match accepted: rajasthan
+2026-01-17 16:04:45,447 - DaunaAI - INFO - Requesting input - Context: recipe name from the list I just mentioned
+2026-01-17 16:04:45,447 - DaunaAI - INFO - Valid options: ['Poha', 'Fara', 'Kachori', 'Pani puri', 'Papad']
+2026-01-17 16:04:48,922 - faster_whisper - INFO - Processing audio with duration 00:01.695
+2026-01-17 16:04:49,987 - DaunaAI - INFO - User input: 'thank you very much.' (ASR confidence: 0.90)
+2026-01-17 16:04:50,016 - DaunaAI - INFO - Sentiment: POSITIVE (score: 1.00)
+2026-01-17 16:04:50,016 - DaunaAI - INFO - Extracting keywords from: 'thank you very much.'
+2026-01-17 16:04:50,017 - DaunaAI - INFO - Match result: 'None' (score: 57.14285714285714)
+2026-01-17 16:04:50,018 - DaunaAI - WARNING - No match found (best score: 57.14285714285714)
+2026-01-17 16:04:57,485 - DaunaAI - WARNING - Retry attempt 1/4
+2026-01-17 16:05:03,319 - DaunaAI - INFO - Providing examples: ['Poha', 'Fara', 'Kachori']
+2026-01-17 16:05:07,706 - faster_whisper - INFO - Processing audio with duration 00:02.763
+2026-01-17 16:05:10,127 - DaunaAI - INFO - User input: 'manipuri.' (ASR confidence: 0.75)
+2026-01-17 16:05:10,153 - DaunaAI - INFO - Sentiment: POSITIVE (score: 0.93)
+2026-01-17 16:05:10,153 - DaunaAI - INFO - Extracting keywords from: 'manipuri.'
+2026-01-17 16:05:10,154 - DaunaAI - INFO - Match result: 'Pani puri' (score: 82.35294117647058)
+2026-01-17 16:05:10,154 - DaunaAI - INFO - Match confidence: high (82.35294117647058)
+2026-01-17 16:05:10,155 - DaunaAI - INFO - Medium confidence - requesting confirmation
+2026-01-17 16:05:19,409 - faster_whisper - INFO - Processing audio with duration 00:03.181
+2026-01-17 16:05:20,277 - DaunaAI - INFO - Confirmation response: 'yes.'
+2026-01-17 16:05:20,277 - DaunaAI - INFO - User confirmed: Pani puri
+2026-01-17 16:05:51,672 - faster_whisper - INFO - Processing audio with duration 00:06.409
+2026-01-17 16:06:12,570 - faster_whisper - INFO - Processing audio with duration 00:03.947
+2026-01-17 16:06:30,313 - DaunaAI - INFO - Requesting input - Context: dietary preference - vegetarian or non-vegetarian
+2026-01-17 16:06:30,313 - DaunaAI - INFO - Valid options: ['vegetarian', 'non-vegetarian']

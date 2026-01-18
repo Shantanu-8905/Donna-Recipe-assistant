@@ -1,0 +1,131 @@
+2026-01-17 17:09:48,189 - DonnaAI - INFO - ======================================================================
+2026-01-17 17:09:48,191 - DonnaAI - INFO - Donna AI Session Started
+2026-01-17 17:09:48,191 - DonnaAI - INFO - ======================================================================
+2026-01-17 17:09:48,194 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-01-17 17:09:48,194 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-17 17:09:55,087 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\shant\\miniconda3\\envs\\dauna\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-01-17 17:09:55,088 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\shant\miniconda3\envs\dauna\lib\site-packages\comtypes\gen'
+2026-01-17 17:10:06,615 - DonnaAI - INFO - Requesting input - Context: dietary preference - vegetarian or non-vegetarian
+2026-01-17 17:10:06,615 - DonnaAI - INFO - Valid options: ['vegetarian', 'non-vegetarian']
+2026-01-17 17:10:11,471 - faster_whisper - INFO - Processing audio with duration 00:03.112
+2026-01-17 17:10:12,130 - DonnaAI - INFO - User input: 'i would like to search for vegetarian.' (ASR confidence: 0.95)
+2026-01-17 17:10:12,186 - DonnaAI - INFO - Sentiment: NEGATIVE (score: 0.99)
+2026-01-17 17:10:12,186 - DonnaAI - INFO - Extracting keywords from: 'i would like to search for vegetarian.'
+2026-01-17 17:10:12,188 - DonnaAI - INFO - Match result: 'vegetarian' (score: 100)
+2026-01-17 17:10:12,188 - DonnaAI - INFO - Match confidence: high (100)
+2026-01-17 17:10:12,188 - DonnaAI - INFO - High confidence match accepted: vegetarian
+2026-01-17 17:10:23,078 - faster_whisper - INFO - Processing audio with duration 00:01.347
+2026-01-17 17:10:23,630 - DonnaAI - INFO - Requesting input - Context: type of course - main course, snack, or dessert
+2026-01-17 17:10:23,630 - DonnaAI - INFO - Valid options: ['main course', 'snack', 'dessert']
+2026-01-17 17:10:37,072 - faster_whisper - INFO - Processing audio with duration 00:03.112
+2026-01-17 17:10:37,681 - DonnaAI - INFO - User input: 'i would like to go with desert' (ASR confidence: 0.95)
+2026-01-17 17:10:37,702 - DonnaAI - INFO - Sentiment: POSITIVE (score: 0.97)
+2026-01-17 17:10:37,702 - DonnaAI - INFO - Extracting keywords from: 'i would like to go with desert'
+2026-01-17 17:10:37,703 - DonnaAI - INFO - Match result: 'dessert' (score: 92.3076923076923)
+2026-01-17 17:10:37,703 - DonnaAI - INFO - Match confidence: high (92.3076923076923)
+2026-01-17 17:10:37,704 - DonnaAI - INFO - High confidence match accepted: dessert
+2026-01-17 17:10:43,876 - DonnaAI - INFO - Requesting input - Context: Indian state for regional cuisine
+2026-01-17 17:10:43,877 - DonnaAI - INFO - Valid options: ['west bengal', 'rajasthan', 'punjab', 'uttar pradesh', 'pan-india', 'odisha', 'maharashtra', 'uttarakhand', 'assam', 'bihar', 'andhra pradesh', 'karnataka', 'telangana', 'kerala', 'tamil nadu', 'gujarat', 'tripura', 'manipur', 'nagaland', 'nct of delhi', 'jammu  kashmir', 'chhattisgarh', 'haryana', 'madhya pradesh', 'goa']
+2026-01-17 17:10:59,416 - faster_whisper - INFO - Processing audio with duration 00:02.763
+2026-01-17 17:11:00,032 - DonnaAI - INFO - User input: 'i would like to go with pan india.' (ASR confidence: 0.95)
+2026-01-17 17:11:00,051 - DonnaAI - INFO - Sentiment: POSITIVE (score: 1.00)
+2026-01-17 17:11:00,052 - DonnaAI - INFO - Extracting keywords from: 'i would like to go with pan india.'
+2026-01-17 17:11:00,054 - DonnaAI - INFO - Match result: 'pan-india' (score: 100)
+2026-01-17 17:11:00,054 - DonnaAI - INFO - Match confidence: high (100)
+2026-01-17 17:11:00,055 - DonnaAI - INFO - High confidence match accepted: pan-india
+2026-01-17 17:11:12,445 - DonnaAI - INFO - Requesting input - Context: recipe name from the list I just mentioned
+2026-01-17 17:11:12,445 - DonnaAI - INFO - Valid options: ['Kaju katli', 'Kheer', 'Laddu', 'Nankhatai', 'Kulfi falooda']
+2026-01-17 17:11:16,025 - faster_whisper - INFO - Processing audio with duration 00:01.788
+2026-01-17 17:11:16,604 - DonnaAI - INFO - User input: 'kaju kati.' (ASR confidence: 0.80)
+2026-01-17 17:11:16,625 - DonnaAI - INFO - Sentiment: POSITIVE (score: 0.61)
+2026-01-17 17:11:16,625 - DonnaAI - INFO - Extracting keywords from: 'kaju kati.'
+2026-01-17 17:11:16,626 - DonnaAI - INFO - Match result: 'Kaju katli' (score: 75)
+2026-01-17 17:11:16,626 - DonnaAI - INFO - Match confidence: medium (75)
+2026-01-17 17:11:16,626 - DonnaAI - INFO - Medium confidence - requesting confirmation
+2026-01-17 17:11:24,469 - faster_whisper - INFO - Processing audio with duration 00:01.950
+2026-01-17 17:11:25,053 - DonnaAI - INFO - Confirmation response: 'yes, it is'
+2026-01-17 17:11:25,053 - DonnaAI - INFO - User confirmed: Kaju katli
+2026-01-17 17:11:51,121 - faster_whisper - INFO - Processing audio with duration 00:01.974
+2026-01-17 17:12:07,846 - faster_whisper - INFO - Processing audio with duration 00:02.345
+2026-01-17 17:12:24,477 - DonnaAI - INFO - Requesting input - Context: dietary preference - vegetarian or non-vegetarian
+2026-01-17 17:12:24,477 - DonnaAI - INFO - Valid options: ['vegetarian', 'non-vegetarian']
+2026-01-17 17:12:28,042 - faster_whisper - INFO - Processing audio with duration 00:01.997
+2026-01-17 17:12:28,634 - DonnaAI - INFO - User input: 'non-vegetarian' (ASR confidence: 0.75)
+2026-01-17 17:12:28,656 - DonnaAI - INFO - Sentiment: POSITIVE (score: 0.92)
+2026-01-17 17:12:28,656 - DonnaAI - INFO - Extracting keywords from: 'non-vegetarian'
+2026-01-17 17:12:28,656 - DonnaAI - INFO - Match result: 'non-vegetarian' (score: 100)
+2026-01-17 17:12:28,656 - DonnaAI - INFO - Match confidence: high (100)
+2026-01-17 17:12:28,657 - DonnaAI - INFO - High confidence match accepted: non-vegetarian
+2026-01-17 17:12:40,107 - faster_whisper - INFO - Processing audio with duration 00:01.904
+2026-01-17 17:12:41,508 - DonnaAI - INFO - Requesting input - Context: type of course - main course, snack, or dessert
+2026-01-17 17:12:41,509 - DonnaAI - INFO - Valid options: ['main course', 'snack', 'dessert']
+2026-01-17 17:12:55,064 - faster_whisper - INFO - Processing audio with duration 00:02.763
+2026-01-17 17:12:55,671 - DonnaAI - INFO - User input: 'i would like to go with main course' (ASR confidence: 0.95)
+2026-01-17 17:12:55,689 - DonnaAI - INFO - Sentiment: POSITIVE (score: 1.00)
+2026-01-17 17:12:55,689 - DonnaAI - INFO - Extracting keywords from: 'i would like to go with main course'
+2026-01-17 17:12:55,690 - DonnaAI - INFO - Match result: 'main course' (score: 100)
+2026-01-17 17:12:55,690 - DonnaAI - INFO - Match confidence: high (100)
+2026-01-17 17:12:55,690 - DonnaAI - INFO - High confidence match accepted: main course
+2026-01-17 17:13:02,495 - DonnaAI - INFO - Requesting input - Context: Indian state for regional cuisine
+2026-01-17 17:13:02,495 - DonnaAI - INFO - Valid options: ['west bengal', 'rajasthan', 'punjab', 'uttar pradesh', 'pan-india', 'odisha', 'maharashtra', 'uttarakhand', 'assam', 'bihar', 'andhra pradesh', 'karnataka', 'telangana', 'kerala', 'tamil nadu', 'gujarat', 'tripura', 'manipur', 'nagaland', 'nct of delhi', 'jammu  kashmir', 'chhattisgarh', 'haryana', 'madhya pradesh', 'goa']
+2026-01-17 17:13:17,942 - faster_whisper - INFO - Processing audio with duration 00:02.554
+2026-01-17 17:13:18,556 - DonnaAI - INFO - User input: 'i would like to go with go up.' (ASR confidence: 0.95)
+2026-01-17 17:13:18,584 - DonnaAI - INFO - Sentiment: POSITIVE (score: 1.00)
+2026-01-17 17:13:18,584 - DonnaAI - INFO - Extracting keywords from: 'i would like to go with go up.'
+2026-01-17 17:13:18,585 - DonnaAI - INFO - Match result: 'goa' (score: 66.66666666666667)
+2026-01-17 17:13:18,585 - DonnaAI - INFO - Match confidence: low (66.66666666666667)
+2026-01-17 17:13:18,585 - DonnaAI - WARNING - Low confidence match (66.66666666666667) - seeking clarification
+2026-01-17 17:14:02,283 - DonnaAI - WARNING - Retry attempt 1/4
+2026-01-17 17:14:08,485 - DonnaAI - INFO - Providing examples: ['west bengal', 'rajasthan', 'punjab']
+2026-01-17 17:14:11,684 - faster_whisper - INFO - Processing audio with duration 00:01.742
+2026-01-17 17:14:13,200 - DonnaAI - INFO - User input: 'thank you.' (ASR confidence: 0.80)
+2026-01-17 17:14:13,220 - DonnaAI - INFO - Sentiment: POSITIVE (score: 1.00)
+2026-01-17 17:14:13,221 - DonnaAI - INFO - Extracting keywords from: 'thank you.'
+2026-01-17 17:14:13,221 - DonnaAI - INFO - Match result: 'rajasthan' (score: 61.53846153846154)
+2026-01-17 17:14:13,221 - DonnaAI - INFO - Match confidence: low (61.53846153846154)
+2026-01-17 17:14:13,221 - DonnaAI - WARNING - Low confidence match (61.53846153846154) - seeking clarification
+2026-01-17 17:14:56,404 - DonnaAI - WARNING - Retry attempt 2/4
+2026-01-17 17:15:02,622 - DonnaAI - INFO - Providing examples: ['west bengal', 'rajasthan', 'punjab']
+2026-01-17 17:15:05,886 - faster_whisper - INFO - Processing audio with duration 00:01.788
+2026-01-17 17:15:06,508 - DonnaAI - INFO - User input: 'i'm going to go up' (ASR confidence: 0.95)
+2026-01-17 17:15:06,530 - DonnaAI - INFO - Sentiment: POSITIVE (score: 1.00)
+2026-01-17 17:15:06,530 - DonnaAI - INFO - Extracting keywords from: 'i'm going to go up'
+2026-01-17 17:15:06,531 - DonnaAI - INFO - Match result: 'goa' (score: 66.66666666666667)
+2026-01-17 17:15:06,531 - DonnaAI - INFO - Match confidence: low (66.66666666666667)
+2026-01-17 17:15:06,532 - DonnaAI - WARNING - Low confidence match (66.66666666666667) - seeking clarification
+2026-01-17 17:15:49,424 - DonnaAI - WARNING - Retry attempt 3/4
+2026-01-17 17:15:55,641 - DonnaAI - INFO - Providing examples: ['west bengal', 'rajasthan', 'punjab']
+2026-01-17 17:15:58,699 - faster_whisper - INFO - Processing audio with duration 00:01.602
+2026-01-17 17:15:59,354 - DonnaAI - INFO - User input: 'and believe.' (ASR confidence: 0.80)
+2026-01-17 17:15:59,374 - DonnaAI - INFO - Sentiment: POSITIVE (score: 1.00)
+2026-01-17 17:15:59,375 - DonnaAI - INFO - Extracting keywords from: 'and believe.'
+2026-01-17 17:15:59,375 - DonnaAI - INFO - Match result: 'None' (score: 54.54545454545454)
+2026-01-17 17:15:59,375 - DonnaAI - WARNING - No match found (best score: 54.54545454545454)
+2026-01-17 17:16:33,468 - DonnaAI - ERROR - Max retries reached for context: Indian state for regional cuisine
+2026-01-17 17:16:47,357 - faster_whisper - INFO - Processing audio with duration 00:01.904
+2026-01-17 17:16:48,010 - DonnaAI - INFO - Skip/retry response: 'try something else.'
+2026-01-17 17:16:48,010 - DonnaAI - INFO - User chose to skip this question
+2026-01-17 17:17:06,264 - DonnaAI - INFO - Requesting input - Context: recipe name from the list I just mentioned
+2026-01-17 17:17:06,264 - DonnaAI - INFO - Valid options: ['Maach Jhol', 'Pork Bharta', 'Galho', 'Biryani', 'Butter chicken']
+2026-01-17 17:17:08,793 - faster_whisper - INFO - Processing audio with duration 00:00.975
+2026-01-17 17:17:09,410 - DonnaAI - INFO - User input: 'that you can.' (ASR confidence: 0.85)
+2026-01-17 17:17:09,428 - DonnaAI - INFO - Sentiment: POSITIVE (score: 1.00)
+2026-01-17 17:17:09,428 - DonnaAI - INFO - Extracting keywords from: 'that you can.'
+2026-01-17 17:17:09,429 - DonnaAI - INFO - Match result: 'None' (score: 42.85714285714286)
+2026-01-17 17:17:09,429 - DonnaAI - WARNING - No match found (best score: 42.85714285714286)
+2026-01-17 17:17:15,422 - DonnaAI - WARNING - Retry attempt 1/4
+2026-01-17 17:17:22,195 - DonnaAI - INFO - Providing examples: ['Maach Jhol', 'Pork Bharta', 'Galho']
+2026-01-17 17:17:25,193 - faster_whisper - INFO - Processing audio with duration 00:01.556
+2026-01-17 17:17:26,020 - DonnaAI - INFO - User input: 'but we chicken' (ASR confidence: 0.85)
+2026-01-17 17:17:26,049 - DonnaAI - INFO - Sentiment: NEGATIVE (score: 0.94)
+2026-01-17 17:17:26,049 - DonnaAI - INFO - Extracting keywords from: 'but we chicken'
+2026-01-17 17:17:26,049 - DonnaAI - INFO - Match result: 'Butter chicken' (score: 75)
+2026-01-17 17:17:26,050 - DonnaAI - INFO - Match confidence: medium (75)
+2026-01-17 17:17:26,050 - DonnaAI - INFO - Medium confidence - requesting confirmation
+2026-01-17 17:17:33,347 - faster_whisper - INFO - Processing audio with duration 00:01.532
+2026-01-17 17:17:33,932 - DonnaAI - INFO - Confirmation response: 'yes, it is'
+2026-01-17 17:17:33,932 - DonnaAI - INFO - User confirmed: Butter chicken
+2026-01-17 17:18:01,254 - faster_whisper - INFO - Processing audio with duration 00:01.788
+2026-01-17 17:18:21,234 - faster_whisper - INFO - Processing audio with duration 00:02.067
+2026-01-17 17:18:29,350 - faster_whisper - INFO - Processing audio with duration 00:01.811
+2026-01-17 17:18:48,044 - faster_whisper - INFO - Processing audio with duration 00:02.763
