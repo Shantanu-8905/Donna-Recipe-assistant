@@ -4,6 +4,10 @@ A voice-enabled AI assistant that helps you discover, filter, and explore Indian
 
 ## Quick Start
 
+## 🎬 Demo Video
+
+[▶ Watch the Demo](https://github.com/Shantanu-8905/Donna-Recipe-assistant/blob/main/Video/Donna_AI.mp4)
+
 ### Installation
 
 1. **Clone and navigate to project:**
